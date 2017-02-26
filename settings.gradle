@@ -1,4 +1,4 @@
-rootProject.name = 'ingraph'
+rootProject.name = 'scala-xtend-gradle'
 
 include ':my-scala'
 include ':my-xtend'
