@@ -1,10 +1,12 @@
 package my.xtend
 
+import my.scala.HelloScala
+
 class HelloXtend { 
 
 	def static void main(String[] args) {
-//		HelloScala.hello()
-		HelloScalaJavaWrapper.hello();
+    HelloScalaJavaWrapper.hello();
+		HelloScala.hello()
 	}
 
 }
