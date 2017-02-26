@@ -1,0 +1,12 @@
+subprojects {
+  repositories {
+    jcenter()
+  }
+
+}
+
+ext {
+  scalaShortVersion = '2.11'
+  scalaVersion = '2.11.8'
+  xtendVersion = '2.10.0'
+}

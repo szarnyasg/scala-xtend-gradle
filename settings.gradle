@@ -1,0 +1,4 @@
+rootProject.name = 'ingraph'
+
+include ':my-scala'
+include ':my-xtend'

@@ -1,0 +1,6 @@
+plugins { id "org.xtext.xtend" version "1.0.17" }
+
+dependencies {
+  compile project(':my-scala')
+  compile group: 'org.eclipse.xtend', name: 'org.eclipse.xtend.lib', version: xtendVersion
+}
